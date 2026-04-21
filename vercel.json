@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "name": "college-activity-portal",
-  "buildCommand": "cd frontend && npm install && npm run build:prod",
-  "outputDirectory": "frontend/dist/frontend/browser",
+  "buildCommand": "npm install && npm run build:prod",
+  "outputDirectory": "dist/frontend/browser",
+  "installCommand": "npm install",
   "framework": "angular",
   "rewrites": [
     {
