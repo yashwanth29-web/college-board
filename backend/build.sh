@@ -11,5 +11,5 @@ python manage.py collectstatic --no-input
 # Run migrations
 python manage.py migrate
 
-# Create superuser if it doesn't exist (optional)
-# python manage.py shell -c "from django.contrib.auth import get_user_model; User = get_user_model(); User.objects.filter(email='admin@college.edu').exists() or User.objects.create_superuser('admin@college.edu', 'admin123', role='admin')"
+# Seed database (create admin and sample data)
+python manage.py seed_database || echo "Seed command failed or already seeded"
