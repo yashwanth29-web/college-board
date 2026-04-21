@@ -4,6 +4,7 @@ import { Observable, BehaviorSubject, tap, catchError, throwError, map } from 'r
 import { Router } from '@angular/router';
 import { User } from '../../shared/models/user.model';
 import { AuthResponse, ApiResponse } from '../../shared/models/api.model';
+import { environment } from '../../../environments/environment';
 
 interface RegisterRequest {
   name: string;
@@ -20,7 +21,7 @@ interface TokenResponse {
   providedIn: 'root'
 })
 export class AuthService {
-  private readonly API_URL = 'http://localhost:8000/api/auth';
+  private readonly API_URL = `${environment.apiUrl}/auth`;
   private readonly ACCESS_TOKEN_KEY = 'access_token';
   private readonly REFRESH_TOKEN_KEY = 'refresh_token';
   private readonly USER_KEY = 'current_user';
