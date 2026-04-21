@@ -62,6 +62,25 @@ A full-stack web application for managing college activities, events, announceme
    - Frontend: http://localhost:4200
    - Backend API: http://localhost:8000/api
 
+## 🌐 Deploy to Production
+
+Deploy your app to the cloud in 30 minutes!
+
+**Quick Deploy**: Follow `DEPLOY_NOW.md` for copy-paste commands
+
+**Deployment Options**:
+- **Frontend**: Vercel (Free, Always Active)
+- **Backend**: Render (Free tier available)
+- **Database**: Neon PostgreSQL (Already configured)
+
+**Documentation**:
+- 📖 `DEPLOY_NOW.md` - Copy-paste deployment commands
+- 📖 `DEPLOYMENT_QUICK_START.md` - 5-minute quick guide
+- 📖 `DEPLOYMENT_GUIDE.md` - Detailed step-by-step guide
+- 📖 `PRE_DEPLOYMENT_CHECKLIST.md` - Pre-deployment tasks
+
+**Cost**: Free tier available, or $26/month for production-ready setup
+
 ## 🔧 Local Development Setup
 
 ### Backend Setup
