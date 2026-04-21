@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "npm install && npm run build:prod",
+  "buildCommand": "npm install && npm run build -- --configuration=production",
   "outputDirectory": "dist/student-portal/browser",
   "installCommand": "npm install",
   "framework": "angular",
