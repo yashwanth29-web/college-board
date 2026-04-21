@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://your-backend-url.onrender.com/api'
+  apiUrl: 'https://college-portal-backend-z7aq.onrender.com/api'
 };
